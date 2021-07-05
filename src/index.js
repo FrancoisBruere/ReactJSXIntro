@@ -11,7 +11,9 @@ ReactDOM.render(
     <h1>
       Hello {fname} {lname}!
     </h1>
-    <p>My lucky number is {num}.</p>
+    <p>
+      My lucky number is {3 + 4} or const {num}.
+    </p>
     <p> Copyright {year} </p>
   </div>,
   document.getElementById("root")
